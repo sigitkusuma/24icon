@@ -1,0 +1,89 @@
+      html,
+      body,
+      header,
+      .view {
+        height: 100%;
+      }
+      .efek {
+      border-radius: 4px;
+      padding: 5px;
+      width: 150px;
+      }
+
+      .efek:hover {
+      box-shadow: 0 0 2px 1px rgba(78, 1, 212, 1);
+      }
+
+      .view {
+          background: url("({{asset('img/unt.gif')}})") no-repeat center center;
+          background-size: cover;
+      }
+      @media (min-width: 768px) {
+          .view {
+              overflow: visible;
+              margin-top: -56px;
+          }
+      }
+      .navbar {
+          z-index: 1;
+          background-color: white;
+      }
+
+      .ukuran {
+        font-size: 0.8rem;
+      }
+
+      
+      @include media-breakpoint-up(sm) {
+        .ukuran {
+          font-size: 1rem;
+        }
+      }
+      
+      @include media-breakpoint-up(md) {
+        .ukuran {
+          font-size: 1.2rem;
+        }
+      }
+      
+      @include media-breakpoint-up(lg) {
+        .ukuran {
+          font-size: 1.4rem;
+        }
+      }
+      
+
+      /* body {
+          background-color: #f6f6f6;
+          width: 400px;
+          margin: 20px auto;
+          font: normal 13px/100% sans-serif;
+          color: #444;
+      } */
+      /* div {
+          display:none;
+          padding: 10px;
+          border-width: 0 1px 1px 0;
+          border-style: solid;
+          border-color: #fff;
+          box-shadow: 0 1px 1px #ccc;
+          margin-bottom: 5px;
+          background-color: #f1f1f1;
+      }
+      .totop {
+          position: fixed;
+          bottom: 10px;
+          right: 20px;
+      }
+      .totop a {
+          display: none;
+      }
+      a, a:visited {
+          color: #33739E;
+          text-decoration: none;
+          display: block;
+          margin: 10px 0;
+      }
+      a:hover {
+          text-decoration: none;
+      } */
