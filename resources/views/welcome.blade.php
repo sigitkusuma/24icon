@@ -12,7 +12,7 @@
 </head>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
+    <div class="container-fluid">
         <div class="input-group input-group-md">
           <div class="input-group-prepend">
             <button class="btn btn-outline-deep-purple btn-md m-0 px-3 py-2 z-depth-0 dropdown-toggle" type="button"
