@@ -28,25 +28,16 @@
     </div>
   </nav>
 
-  <!-- Full Page Intro -->
-  <div class="view" style="background-image: url({{asset('img/unt.gif')}}); background-repeat: no-repeat; background-size: cover;">
-
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-light d-flex justify-content-center align-items-center">
-
-      <!-- Content -->
-      <div class="text-left deep-purple-text mx-5 wow fadeIn">
-        
-      <img class="mt-0" src="{{asset('img/logo.png')}}">
-
+  <div class="view" style="background-image: url({{asset('img/unt.gif')}}); background-repeat: no-repeat;">
+    <div class="mask rgba-light d-flex mx-5 justify-content-left align-items-center">
+      <div class="text-left deep-purple-text mx-0 fadeIn">   
+        <img class="mt-0" src="{{asset('img/logo.png')}}">
         <h1 class="mb-4">
           <strong>Icon Material</strong>
         </h1>
-
         <p><strong>Best & free guide of responsive web design</strong></p>
-
         <p class="mb-4 d-none d-md-block">
-          <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
+          <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users.<br> Video and written
             versions available.
             Create your own, stunning website.</strong>
         </p>
